@@ -1,8 +1,4 @@
-# frozen_string_literal: true
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-group :development do
-  gem 'pry'
-end
-
-gem 'hashie'
+# Specify your gem's dependencies in http-api-client.gemspec
+gemspec
