@@ -3,14 +3,9 @@ require 'bundler/setup'
 require 'uri'
 require 'net/http'
 require 'logger'
-require 'pry' if development?
 require 'hashie'
 require 'json'
 require 'yaml'
-
-def development?
-  ENV['CONFIG_ENV'] == 'development'
-end
 
 module HttpClient
   def info(*args)
